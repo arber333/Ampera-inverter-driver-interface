@@ -9,3 +9,5 @@ I think you may have a problem in voltage polarity if you use another positive s
 Also to clarify for isolated op amp i use Si8920 which is marked on board but model is ATTINY. It is just a mistake in using a wrong model for a chip.
 To supply isolated voltage i use Murata NME0505SC which can withstand short on opamp indefinitely.
 I am sorry if i caused confusion. I have just used the drawing for so long i forgot about some points.
+
+Version 2.4, I added 6K8 pulldowns on the PWM signals and connect the stranded GND plane for R28 pulldown resistor.
